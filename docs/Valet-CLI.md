@@ -14,7 +14,7 @@ Thera are multiple components attached `Valet` as listed below:
 
 To get started, you first need to install `valet-cli` on your workstation.
 
-> Prerequisite here is, Node.js installed already.
+> Prerequisite here is: `Node.js` installed on your workstations already.
 
 ```bash
 npm i @valet-is/cli -g
@@ -25,9 +25,10 @@ That's it, you are ready to start.
 
 ### Initializing a new application
 
-#### `valet-init`
+#### valet-init
 
-The `valet init` command will create scaffold RESTful API written in `Node.js`. Default installtion will include minimal source files with `JsonDB` database connector.
+The `valet init` command will create scaffold RESTful API written in `Node.js`.
+Default installtion will include minimal source files with `JsonDB` database connector.
 
 ```bash
 valet init <app> [--console|-c] [--db|-d <jsondb|mongodb>] [--lang|-l <nodejs|golang>]
