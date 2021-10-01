@@ -1,0 +1,6 @@
+[submodule "packages/server-nodejs"]
+	path = packages/server-nodejs
+	url = git@github.com:valet-is/server-nodejs.git
+[submodule "packages/server-console"]
+	path = packages/server-console
+	url = git@github.com:valet-is/server-console.git
