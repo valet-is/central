@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "submodule": "git submodule update --init --recursive"
+    "submodule:init": "git submodule update --init --recursive",
+    "submodule:update": "git submodule update --remote --merge"
   },
   "repository": "git@github.com:valet-is/central.git",
   "author": "thinkholic <mailtokasun@gmail.com>",
