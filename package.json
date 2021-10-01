@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "valet-central",
+  "version": "1.0.0-alpha.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "submodule": "git submodule update --init --recursive"
+  },
+  "repository": "git@github.com:valet-is/central.git",
+  "author": "thinkholic <mailtokasun@gmail.com>",
+  "license": "MIT"
+}
