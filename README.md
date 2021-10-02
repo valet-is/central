@@ -10,7 +10,7 @@ cd valet-central
 yarn
 ```
 
-> It's not required to run `git submodule` configurations manually. It'll trigger with `yarn` as a `preinstall` script.
+> It's not required to run `git submodule` commands manually. They'll execute with `yarn` as a `preinstall` script.
 
 ### Contributing
 
